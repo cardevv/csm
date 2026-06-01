@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSM Planejados – Marcenaria Sob Medida | Cubatão SP</title>
+  <meta name="description" content="Móveis planejados sob medida para cozinhas, quartos e banheiros. Atendimento em sua residência. Solicite seu orçamento!" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════ HEADER / NAV ══════════ -->
+  <header id="header">
+    <nav class="nav-container">
+      <a href="#home" class="nav-logo">
+  <img src="images/logo.png" alt="CSM" class="nav-logo-img" />
+  <span class="nav-logo-text">Móveis<br><strong>Planejados</strong></span>
+</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#contato" class="nav-cta">Pedir Orçamento</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ══════════ HERO / HOME ══════════ -->
+  <section id="home" class="hero">
+    <div class="hero-slides">
+      <div class="slide active" style="background-image:url('images/projeto-2.jpg')"></div>
+      <div class="slide" style="background-image:url('images/projeto-3.jpg')"></div>
+      <div class="slide" style="background-image:url('images/projeto-6.jpg')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Cubatão · SP</p>
+      <h1 class="hero-title">Móveis Planejados<br /><em>Sob Medida</em></h1>
+      <p class="hero-subtitle">Entregamos sua cozinha em <strong>30 dias</strong>. Atendimento personalizado direto na sua residência.</p>
+      <div class="hero-actions">
+        <a href="https://api.whatsapp.com/send/?phone=5513974094924&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.554 4.118 1.523 5.847L0 24l6.335-1.484A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.898 0-3.665-.523-5.176-1.43l-.371-.22-3.763.882.938-3.669-.242-.379A9.943 9.943 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          Faça seu Orçamento
+        </a>
+        <a href="#servicos" class="btn btn-outline">Conheça nossos serviços</a>
+      </div>
+    </div>
+    <div class="hero-dots">
+      <button class="dot active" data-slide="0"></button>
+      <button class="dot" data-slide="1"></button>
+      <button class="dot" data-slide="2"></button>
+    </div>
+    <div class="hero-scroll">
+      <span>Rolar</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ══════════ NÚMEROS / DESTAQUES ══════════ -->
+  <section class="highlights">
+    <div class="container highlights-grid">
+      <div class="highlight-item">
+        <strong>30 dias</strong>
+        <span>Entrega da cozinha</span>
+      </div>
+      <div class="highlight-item">
+        <strong>100%</strong>
+        <span>Sob medida</span>
+      </div>
+      <div class="highlight-item">
+        <strong>Atendimento</strong>
+        <span>Em sua residência</span>
+      </div>
+      <div class="highlight-item">
+        <strong>Cubatão–SP</strong>
+        <span>e região</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ SERVIÇOS ══════════ -->
+  <section id="servicos" class="section services-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">O que fazemos</p>
+        <h2 class="section-title">Nossos <em>Serviços</em></h2>
+        <p class="section-desc">Móveis sob medida que transformam cada cômodo da sua casa com funcionalidade e elegância.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="images/projeto-2.jpg" alt="Cozinha Planejada" loading="lazy" />
+            <div class="service-tag">Cozinha</div>
+          </div>
+          <div class="service-body">
+            <h3>Cozinha Planejada</h3>
+            <p>Cozinhas funcionais e elegantes, projetadas para aproveitar cada centímetro do seu espaço. Armários sob medida, balcões e ilhas com acabamento de alta qualidade.</p>
+            <a href="https://api.whatsapp.com/send/?phone=5513974094924&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank" class="service-link">Pedir orçamento →</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="images/projeto-5.jpg" alt="Quarto Planejado" loading="lazy" />
+            <div class="service-tag">Quarto</div>
+          </div>
+          <div class="service-body">
+            <h3>Quarto Planejado</h3>
+            <p>Guarda-roupas, camas com gavetas, criados-mudos e painéis que criam dormitórios organizados, confortáveis e com identidade própria.</p>
+            <a href="https://api.whatsapp.com/send/?phone=5513974094924&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank" class="service-link">Pedir orçamento →</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="images/projeto-6.jpg" alt="Outros Ambientes" loading="lazy" />
+            <div class="service-tag">Cozinha</div>
+          </div>
+          <div class="service-body">
+            <h3>Cozinha moderna</h3>
+            <p>Cozinhas funcionais e elegantes, projetadas para aproveitar cada centímetro do seu espaço. Armários sob medida, balcões e ilhas com acabamento de alta qualidade.</p>
+            <a href="https://api.whatsapp.com/send/?phone=5513974094924&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank" class="service-link">Pedir orçamento →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ COMO FUNCIONA ══════════ -->
+  <section class="how-section">
+    <div class="container">
+      <div class="section-header light">
+        <p class="section-eyebrow">Processo</p>
+        <h2 class="section-title">Como <em>Funciona</em></h2>
+      </div>
+      <div class="steps-grid">
+        <div class="step">
+          <div class="step-num">01</div>
+          <h4>Contato</h4>
+          <p>Você entra em contato pelo WhatsApp ou formulário e agendamos uma visita sem compromisso.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <h4>Visita Técnica</h4>
+          <p>Nossa equipe vai até a sua residência, faz as medições e entende sua necessidade.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <h4>Projeto</h4>
+          <p>Desenvolvemos o projeto personalizado com todos os detalhes e apresentamos o orçamento.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">04</div>
+          <h4>Entrega</h4>
+          <p>Produzimos e instalamos seus móveis com precisão e cuidado, no prazo combinado.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ GALERIA ══════════ -->
+  <section id="galeria" class="section gallery-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Portfólio</p>
+        <h2 class="section-title">Projetos <em>Realizados</em></h2>
+        <p class="section-desc">Veja alguns dos trabalhos que já entregamos aos nossos clientes.</p>
+      </div>
+    </div>
+<div class="gallery-grid">
+  <div class="gallery-item">
+    <img src="images/projeto-1.jpg" alt="Projeto Cozinha 1" loading="lazy" />
+    <div class="gallery-overlay"><span>Cozinha Planejada</span></div>
+  </div>
+  <div class="gallery-item">
+    <img src="images/projeto-5.jpg" alt="Quarto Planejado" loading="lazy" />
+    <div class="gallery-overlay"><span>Quarto Planejado</span></div>
+  </div>
+  <div class="gallery-item">
+    <img src="images/projeto-4.jpg" alt="Projeto Cozinha" loading="lazy" />
+    <div class="gallery-overlay"><span>Cozinha Planejada</span></div>
+  </div>
+  <div class="gallery-item">
+    <img src="images/projeto-2.jpg" alt="Projeto Cozinha 2" loading="lazy" />
+    <div class="gallery-overlay"><span>Cozinha Planejada</span></div>
+  </div>
+  <div class="gallery-item">
+    <img src="images/projeto-3.jpg" alt="Projeto Cozinha 3" loading="lazy" />
+    <div class="gallery-overlay"><span>Cozinha Planejada</span></div>
+  </div>
+  <div class="gallery-item">
+    <img src="images/projeto-6.jpg" alt="Cozinha em L" loading="lazy" />
+    <div class="gallery-overlay"><span>Cozinha em L</span></div>
+  </div>
+</div>
+    <div class="container gallery-cta">
+      <a href="https://www.instagram.com/csmplanejadoss/" target="_blank" class="btn btn-outline-dark">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        Ver mais no Instagram
+      </a>
+    </div>
+  </section>
+
+  <!-- ══════════ SOBRE ══════════ -->
+  <section id="sobre" class="section about-section">
+    <div class="container about-grid">
+      <div class="about-img-wrap">
+        <img src="images/projeto-3.jpg" alt="Projeto CSM Planejados" loading="lazy" />
+        <div class="about-badge">
+          <strong>Desde</strong>
+          <span>2024</span>
+        </div>
+      </div>
+      <div class="about-content">
+        <p class="section-eyebrow">Sobre nós</p>
+        <h2 class="section-title">Feito com <em>precisão</em>,<br />entregue com orgulho.</h2>
+        <p>A <strong>CSM Planejados</strong> nasceu em janeiro de 2024 com um propósito claro: oferecer móveis planejados de alta qualidade com atendimento verdadeiramente personalizado, direto na sua residência.</p>
+        <p>Localizada em <strong>Cubatão – SP</strong>, nossa equipe realiza visitas técnicas, levantamento de medidas e elaboração de projetos exclusivos para cada cliente. Não temos loja física — nosso showroom é a sua casa.</p>
+        <p>Com estrutura enxuta e foco total na qualidade, garantimos agilidade e excelência do projeto à instalação.</p>
+        <div class="about-diferenciais">
+          <div class="diferencial">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            Atendimento em domicílio
+          </div>
+          <div class="diferencial">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            Projetos exclusivos sob medida
+          </div>
+          <div class="diferencial">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            Materiais de alta qualidade
+          </div>
+          <div class="diferencial">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            Cozinha entregue em 30 dias
+          </div>
+        </div>
+        <a href="https://api.whatsapp.com/send/?phone=5513974094924&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank" class="btn btn-primary">Agendar Visita Técnica</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ CTA BANNER ══════════ -->
+  <section class="cta-banner">
+    <div class="cta-bg" style="background-image:url('images/projeto-2.jpg')"></div>
+    <div class="cta-overlay"></div>
+    <div class="container cta-content">
+      <h2>Pronto para transformar<br /><em>seu lar?</em></h2>
+      <p>Entre em contato agora e receba um orçamento gratuito e personalizado.</p>
+      <a href="https://api.whatsapp.com/send/?phone=5513974094924&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank" class="btn btn-white">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.554 4.118 1.523 5.847L0 24l6.335-1.484A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.898 0-3.665-.523-5.176-1.43l-.371-.22-3.763.882.938-3.669-.242-.379A9.943 9.943 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+        Falar no WhatsApp agora
+      </a>
+    </div>
+  </section>
+
+  <!-- ══════════ CONTATO ══════════ -->
+  <section id="contato" class="section contact-section">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <p class="section-eyebrow">Fale conosco</p>
+        <h2 class="section-title">Entre em <em>Contato</em></h2>
+        <p>Estamos prontos para atender você. Envie sua mensagem ou fale diretamente pelo WhatsApp.</p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.554 4.118 1.523 5.847L0 24l6.335-1.484A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.898 0-3.665-.523-5.176-1.43l-.371-.22-3.763.882.938-3.669-.242-.379A9.943 9.943 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+            </div>
+            <div>
+              <strong>WhatsApp</strong>
+              <a href="https://api.whatsapp.com/send/?phone=5513974094924&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank">(13) 97409-4924</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <strong>E-mail</strong>
+              <a href="mailto:contato@csmplanejados.com.br">contato@csmplanejados.com.br</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <strong>Localização</strong>
+              <span>Cubatão – SP e região</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </div>
+            <div>
+              <strong>Instagram</strong>
+              <a href="https://www.instagram.com/csmplanejadoss/" target="_blank">@csmplanejados</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Seu nome</label>
+            <input type="text" id="name" name="name" placeholder="João Silva" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">WhatsApp / Telefone</label>
+            <input type="tel" id="phone" name="phone" placeholder="(13) 97409-4924" required />
+          </div>
+          <div class="form-group">
+            <label for="service">Serviço de interesse</label>
+            <select id="service" name="service">
+              <option value="">Selecione...</option>
+              <option>Cozinha Planejada</option>
+              <option>Quarto Planejado</option>
+              <option>Banheiro Planejado</option>
+              <option>Sala / Escritório</option>
+              <option>Outro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="4" placeholder="Descreva brevemente o que você precisa..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">Enviar Mensagem</button>
+          <p class="form-note">Ou fale diretamente pelo <a href="https://api.whatsapp.com/send/?phone=5513974094924&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank">WhatsApp</a></p>
+        </form>
+        <div class="form-success" id="formSuccess" style="display:none">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="20 6 9 17 4 12" transform="translate(0 0) scale(0.6) translate(8 8)"/></svg>
+          <h3>Mensagem enviada!</h3>
+          <p>Entraremos em contato em breve pelo WhatsApp.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ FOOTER ══════════ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="nav-logo">
+          <img src="images/logo.png" alt="CSM Móveis e Planejados" class="nav-logo-img">
+        </a>
+        <p>Móveis planejados sob medida com atendimento personalizado direto na sua residência. Cubatão – SP.</p>
+        <div class="footer-social">
+          <a href="https://instagram.com/" target="_blank" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="https://api.whatsapp.com/send/?phone=5513974094924&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.554 4.118 1.523 5.847L0 24l6.335-1.484A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.898 0-3.665-.523-5.176-1.43l-.371-.22-3.763.882.938-3.669-.242-.379A9.943 9.943 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-nav">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-services">
+        <h4>Serviços</h4>
+        <ul>
+          <li><a href="#servicos">Cozinha Planejada</a></li>
+          <li><a href="#servicos">Quarto Planejado</a></li>
+          <li><a href="#servicos">Cozinha Moderna</a></li>
+          <li><a href="#servicos">Sala / Escritório</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contato</h4>
+        <p><a href="https://api.whatsapp.com/send/?phone=5513974094924&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank">(13) 97409-4924</a></p>
+        <p><a href="mailto:contato@csmplanejados.com.br">contato@csmplanejados.com.br</a></p>
+        <p>Cubatão – SP</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 CSM Planejados. Todos os direitos reservados.</p>
+        <p>Desenvolvido por alunos da FATEC Baixada Santista</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════ WHATSAPP FIXO ══════════ -->
+  <a href="https://api.whatsapp.com/send/?phone=5513974094924&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank" class="whatsapp-float" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.554 4.118 1.523 5.847L0 24l6.335-1.484A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.898 0-3.665-.523-5.176-1.43l-.371-.22-3.763.882.938-3.669-.242-.379A9.943 9.943 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+    <span class="whatsapp-tooltip">Falar no WhatsApp</span>
+  </a>
+
+  <script src="main.js"></script>
+</body>
+</html>
